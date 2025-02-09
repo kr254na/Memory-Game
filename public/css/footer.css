@@ -1,0 +1,39 @@
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    border-top: 2px solid gold;
+    opacity:0.8;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.left-side p, .right-side p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.left-side {
+    text-align: left;
+}
+
+.right-side {
+    text-align: right;
+}
+
+.right-side p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer p {
+    margin: 0;
+}

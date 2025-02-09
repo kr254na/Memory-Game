@@ -1,0 +1,167 @@
+body {
+    background: url("/assets/bg1.png");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.slot-machine {
+    background-color: #f2d021;
+    margin: 50px auto;
+    width: 600px;
+    height:500px;
+    padding: 20px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    }
+.heading{
+    background-color: #222;
+    padding:4px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+h1 {
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.reels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 52px 0;
+}
+
+.reel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9rem;
+    margin: 0 10px;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: #333;
+    width: 150px;
+    height:150px;
+    text-align: center;
+}
+
+.controls {
+    margin: 10px 0;
+}
+
+button {
+    width:7rem;
+    height:7rem;
+    font-size:1.2rem;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+button:hover {
+    color:#222;
+    background-color: #ffd700;
+}
+.messagebox{
+    width:100%;
+    height:60px;
+    background-color: #222;
+    padding-top:8px;
+    border-radius:10px;
+}
+#message {
+    margin-top: 10px;
+    font-size:1.5rem;
+    font-weight:300;
+}
+.page2{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,200px);
+    gap:10px;
+}
+.deck{
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #333;
+}
+.deck1{
+    background:url("/assets/decks/1.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck2{
+    background:url("/assets/decks/2.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck3{
+    background:url("/assets/decks/3.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck4{
+    background:url("/assets/decks/4.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck5{
+    background:url("/assets/decks/5.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck6{
+    background:url("/assets/decks/6.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck7{
+    background:url("/assets/decks/7.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck8{
+    background:url("/assets/decks/8.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck9{
+    background:url("/assets/decks/9.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck10{
+    background:url("/assets/decks/10.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck11{
+    background:url("/assets/decks/11.png");
+    background-position:center;
+    background-size:cover;
+}
+.deck12{
+    background:url("/assets/decks/12.png");
+    background-position:center;
+    background-size:cover;
+}
+@keyframes rotateAndExpand{
+    0%{
+        transform: rotate(0deg)
+        translate(0,0) scale(1);
+    }
+    50%{
+        transform:rotate(540deg) scale(15)
+    }
+    100%{
+        transform:rotate(1080deg) translate(50vw,50vh) scale(30)
+    }
+}
